@@ -1,0 +1,20 @@
+.page_navi {
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.page_navi.active {
+    background-color: rgb(224 242 254);
+}
+
+.page_navi span,
+.page_navi p {
+    line-height: 1;
+}
+
+.Sidebar {
+    /* width: 30%; */
+    padding: 15px;
+}

@@ -1,0 +1,16 @@
+.page_navi_child {
+    margin-left: 18px;
+    transition: all 0.35s ease;
+    height: 0;
+    width: 100%;
+    max-width: calc(100% - 18px);
+    overflow: hidden;
+}
+
+.page_navi_child.active {
+    height: 80px;
+}
+
+.page_navi_child.opacity-5 {
+    height: 0px;
+}
